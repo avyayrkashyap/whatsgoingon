@@ -1,7 +1,7 @@
 class Summarizer {
     constructor() {
         // Replace with your Cloudflare Worker URL
-        this.PROXY_URL = 'https://your-worker.workers.dev/summarize';
+        this.PROXY_URL = 'https://whatsgoingon.avyayrk.workers.dev/summarize';
     }
 
     async generateSummary(bookDetails, pageNumber) {
